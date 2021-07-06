@@ -121,3 +121,6 @@ a:hover {
 .active {
   display: flex;
 }
+.hide {
+  display: none;
+}
