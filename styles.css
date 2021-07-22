@@ -19,7 +19,7 @@ body {
   color: #e7dfdc;
   border: 1px solid #4d3a42;
   width: 70%;
-  height: 150px;
+  height: 7rem;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
@@ -28,15 +28,15 @@ body {
   border-radius: 10px;
 }
 
-.dinners {
-  display: none;
+.dinner--info {
+  width: 100%;
 }
 
 #source {
   padding: 1rem;
   margin: 1rem;
   height: 3rem;
-  width: 25%;
+  width: 40%;
   margin: auto;
   margin-top: 1rem;
   border: 1px solid white;
@@ -45,6 +45,7 @@ body {
   border-radius: 10px;
   color: #4d3a42;
   text-align: center;
+  padding-bottom: 0;
 }
 
 img {
@@ -52,68 +53,75 @@ img {
   height: 100px;
 }
 .selection--container {
-  display: flex;
-  flex-direction: column;
   position: relative;
-  top: -50px;
   text-align: center;
 }
 
 .heading > h1 {
   margin: auto;
-  padding-top: 1.5rem;
-  padding-bottom: 1rem;
-  font-size: 3em;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 3rem;
 }
 .heading > p {
-  font-size: 1.5em;
+  font-size: 1.5rem;
 }
 
 button {
   cursor: pointer;
-  height: 100px;
+  height: 4rem;
   width: 50%;
-  margin-left: 25%;
-  margin-right: 25%;
-  font-size: 1.5em;
+  margin-left: auto;
+  margin-right: auto;
   border: 1px solid white;
   border-radius: 10px;
   background-color: #f1cf93;
   color: white;
 }
+button h2 {
+  font-size: 2.5rem;
+}
 
 .picture--links {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2rem;
   display: none;
-  flex-direction: column;
-  position: absolute;
-  width: 60%;
-  height: 30vh;
-  margin-right: 20%;
-  margin-left: 20%;
-}
-.dinner--info {
-  position: relative;
+  text-align: left;
+  align-content: center;
+  width: 100%;
 }
 
 img {
-  height: 15rem;
-  border-radius: 10px;
+  height: 12rem;
   border: 1px solid #4d3a42;
+  border-radius: 10px;
+  width: auto;
+  margin: 2rem 1rem;
+}
+.links {
+  color: #4d3a42;
+  font-size: 1.5rem;
+  margin: 2rem;
+}
+.time {
+  color: #4d3a42;
+  font-weight: bold;
+}
+.link_1,
+.link_2,
+.time {
+  display: block;
 }
 
-.links {
-  margin: auto;
-  text-align: right;
-  align-self: flex-end;
-  position: absolute;
-  color: #4d3a42;
-  font-size: x-large;
-}
 a:visited {
   color: #4d3a42;
 }
 a:link {
   color: #4d3a42;
+  text-decoration: none;
 }
 a:hover {
   color: #d48b8f;
